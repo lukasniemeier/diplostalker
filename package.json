@@ -12,6 +12,10 @@
     "lint": "tsc --noEmit",
     "generate-notices": "license-checker-rseidelsohn --production --markdown > THIRD-PARTY-NOTICES.md"
   },
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=11.0.0"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
     "@vitejs/plugin-react": "^5.0.4",
