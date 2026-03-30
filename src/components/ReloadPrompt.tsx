@@ -23,8 +23,7 @@ export const ReloadPrompt: React.FC<ReloadPromptProps> = ({ t }) => {
     onRegisteredSW(swUrl: string, registration: ServiceWorkerRegistration | undefined) {
       if (!registration) return;
 
-      // Check for service worker updates periodically
-      const checkInterval = 10 * 1000; // 10 seconds
+      const checkUpdateInterval = 120 * 1000;
       
       setInterval(async () => {
         if (!navigator.onLine || registration.installing) return;
@@ -44,7 +43,7 @@ export const ReloadPrompt: React.FC<ReloadPromptProps> = ({ t }) => {
         } catch (error) {
           console.error('PWA: Failed to check for update', error);
         }
-      }, checkInterval);
+      }, checkUpdateInterval);
     },
   });
 
