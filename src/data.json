@@ -1,197 +1,1514 @@
 {
-  "10": { "code": "10", "nameDe": "Vatikanstadt", "nameEn": "Vatican City", "flag": "🇻🇦", "type": "country" },
-  "11": { "code": "11", "nameDe": "Ägypten", "nameEn": "Egypt", "flag": "🇪🇬", "type": "country" },
-  "12": { "code": "12", "nameDe": "Angola", "nameEn": "Angola", "flag": "🇦🇴", "type": "country" },
-  "13": { "code": "13", "nameDe": "Albanien", "nameEn": "Albania", "flag": "🇦🇱", "type": "country" },
-  "14": { "code": "14", "nameDe": "Äthiopien", "nameEn": "Ethiopia", "flag": "🇪🇹", "type": "country" },
-  "15": { "code": "15", "nameDe": "Afghanistan", "nameEn": "Afghanistan", "flag": "🇦🇫", "type": "country" },
-  "16": { "code": "16", "nameDe": "Algerien", "nameEn": "Algeria", "flag": "🇩🇿", "type": "country" },
-  "17": { "code": "17", "nameDe": "USA", "nameEn": "USA", "flag": "🇺🇸", "type": "country" },
-  "18": { "code": "18", "nameDe": "Argentinien", "nameEn": "Argentina", "flag": "🇦🇷", "type": "country" },
-  "19": { "code": "19", "nameDe": "Australien", "nameEn": "Australia", "flag": "🇦🇺", "type": "country" },
-  "20": { "code": "20", "nameDe": "Bangladesch", "nameEn": "Bangladesh", "flag": "🇧🇩", "type": "country" },
-  "21": { "code": "21", "nameDe": "Belgien", "nameEn": "Belgium", "flag": "🇧🇪", "type": "country" },
-  "22": { "code": "22", "nameDe": "Benin", "nameEn": "Benin", "flag": "🇧🇯", "type": "country" },
-  "23": { "code": "23", "nameDe": "Bolivien", "nameEn": "Bolivia", "flag": "🇧🇴", "type": "country" },
-  "24": { "code": "24", "nameDe": "Brasilien", "nameEn": "Brazil", "flag": "🇧🇷", "type": "country" },
-  "25": { "code": "25", "nameDe": "Bulgarien", "nameEn": "Bulgaria", "flag": "🇧🇬", "type": "country" },
-  "26": { "code": "26", "nameDe": "Myanmar", "nameEn": "Myanmar", "flag": "🇲🇲", "type": "country" },
-  "27": { "code": "27", "nameDe": "Burundi", "nameEn": "Burundi", "flag": "🇧🇮", "type": "country" },
-  "28": { "code": "28", "nameDe": "Chile", "nameEn": "Chile", "flag": "🇨🇱", "type": "country" },
-  "29": { "code": "29", "nameDe": "China", "nameEn": "China", "flag": "🇨🇳", "type": "country" },
-  "30": { "code": "30", "nameDe": "Costa Rica", "nameEn": "Costa Rica", "flag": "🇨🇷", "type": "country" },
-  "31": { "code": "31", "nameDe": "Dänemark", "nameEn": "Denmark", "flag": "🇩🇰", "type": "country" },
-  "32": { "code": "32", "nameDe": "Ecuador", "nameEn": "Ecuador", "flag": "🇪🇨", "type": "country" },
-  "33": { "code": "33", "nameDe": "El Salvador", "nameEn": "El Salvador", "flag": "🇸🇻", "type": "country" },
-  "34": { "code": "34", "nameDe": "Elfenbeinküste", "nameEn": "Ivory Coast", "flag": "🇨🇮", "type": "country" },
-  "35": { "code": "35", "nameDe": "Philippinen", "nameEn": "Philippines", "flag": "🇵🇭", "type": "country" },
-  "36": { "code": "36", "nameDe": "Finnland", "nameEn": "Finland", "flag": "🇫🇮", "type": "country" },
-  "37": { "code": "37", "nameDe": "Frankreich", "nameEn": "France", "flag": "🇫🇷", "type": "country" },
-  "38": { "code": "38", "nameDe": "Gabun", "nameEn": "Gabon", "flag": "🇬🇦", "type": "country" },
-  "39": { "code": "39", "nameDe": "Ghana", "nameEn": "Ghana", "flag": "🇬🇭", "type": "country" },
-  "40": { "code": "40", "nameDe": "Griechenland", "nameEn": "Greece", "flag": "🇬🇷", "type": "country" },
-  "41": { "code": "41", "nameDe": "Guatemala", "nameEn": "Guatemala", "flag": "🇬🇹", "type": "country" },
-  "42": { "code": "42", "nameDe": "Guinea", "nameEn": "Guinea", "flag": "🇬🇳", "type": "country" },
-  "43": { "code": "43", "nameDe": "Guyana", "nameEn": "Guyana", "flag": "🇬🇾", "type": "country" },
-  "44": { "code": "44", "nameDe": "Haiti", "nameEn": "Haiti", "flag": "🇭🇹", "type": "country" },
-  "45": { "code": "45", "nameDe": "Honduras", "nameEn": "Honduras", "flag": "🇭🇳", "type": "country" },
-  "46": { "code": "46", "nameDe": "Indien", "nameEn": "India", "flag": "🇮🇳", "type": "country" },
-  "47": { "code": "47", "nameDe": "Indonesien", "nameEn": "Indonesia", "flag": "🇮🇩", "type": "country" },
-  "48": { "code": "48", "nameDe": "Irak", "nameEn": "Iraq", "flag": "🇮🇶", "type": "country" },
-  "49": { "code": "49", "nameDe": "Iran", "nameEn": "Iran", "flag": "🇮🇷", "type": "country" },
-  "50": { "code": "50", "nameDe": "Irland", "nameEn": "Ireland", "flag": "🇮🇪", "type": "country" },
-  "51": { "code": "51", "nameDe": "Island", "nameEn": "Iceland", "flag": "🇮🇸", "type": "country" },
-  "52": { "code": "52", "nameDe": "Italien", "nameEn": "Italy", "flag": "🇮🇹", "type": "country" },
-  "53": { "code": "53", "nameDe": "Jamaika", "nameEn": "Jamaica", "flag": "🇯🇲", "type": "country" },
-  "54": { "code": "54", "nameDe": "Japan", "nameEn": "Japan", "flag": "🇯🇵", "type": "country" },
-  "55": { "code": "55", "nameDe": "Jordanien", "nameEn": "Jordan", "flag": "🇯🇴", "type": "country" },
-  "56": { "code": "56", "nameDe": "Kenia", "nameEn": "Kenya", "flag": "🇰🇪", "type": "country" },
-  "57": { "code": "57", "nameDe": "Kolumbien", "nameEn": "Colombia", "flag": "🇨🇴", "type": "country" },
-  "58": { "code": "58", "nameDe": "Kongo (Dem. Rep.)", "nameEn": "Congo (Dem. Rep.)", "flag": "🇨🇩", "type": "country" },
-  "59": { "code": "59", "nameDe": "Korea (Rep.)", "nameEn": "Korea (Rep.)", "flag": "🇰🇷", "type": "country" },
-  "60": { "code": "60", "nameDe": "Kuwait", "nameEn": "Kuwait", "flag": "🇰🇼", "type": "country" },
-  "61": { "code": "61", "nameDe": "Laos", "nameEn": "Laos", "flag": "🇱🇦", "type": "country" },
-  "62": { "code": "62", "nameDe": "Libanon", "nameEn": "Lebanon", "flag": "🇱🇧", "type": "country" },
-  "63": { "code": "63", "nameDe": "Liberia", "nameEn": "Liberia", "flag": "🇱🇷", "type": "country" },
-  "64": { "code": "64", "nameDe": "Libyen", "nameEn": "Libya", "flag": "🇱🇾", "type": "country" },
-  "65": { "code": "65", "nameDe": "Luxemburg", "nameEn": "Luxembourg", "flag": "🇱🇺", "type": "country" },
-  "66": { "code": "66", "nameDe": "Madagaskar", "nameEn": "Madagascar", "flag": "🇲🇬", "type": "country" },
-  "67": { "code": "67", "nameDe": "Malawi", "nameEn": "Malawi", "flag": "🇲🇼", "type": "country" },
-  "68": { "code": "68", "nameDe": "Malaysia", "nameEn": "Malaysia", "flag": "🇲🇾", "type": "country" },
-  "69": { "code": "69", "nameDe": "Mali", "nameEn": "Mali", "flag": "🇲🇱", "type": "country" },
-  "70": { "code": "70", "nameDe": "Marokko", "nameEn": "Morocco", "flag": "🇲🇦", "type": "country" },
-  "71": { "code": "71", "nameDe": "Mauretanien", "nameEn": "Mauritania", "flag": "🇲🇷", "type": "country" },
-  "72": { "code": "72", "nameDe": "Mexiko", "nameEn": "Mexico", "flag": "🇲🇽", "type": "country" },
-  "73": { "code": "73", "nameDe": "Mongolei", "nameEn": "Mongolia", "flag": "🇲🇳", "type": "country" },
-  "74": { "code": "74", "nameDe": "Nepal", "nameEn": "Nepal", "flag": "🇳🇵", "type": "country" },
-  "75": { "code": "75", "nameDe": "Neuseeland", "nameEn": "New Zealand", "flag": "🇳🇿", "type": "country" },
-  "76": { "code": "76", "nameDe": "Nicaragua", "nameEn": "Nicaragua", "flag": "🇳🇮", "type": "country" },
-  "77": { "code": "77", "nameDe": "Niger", "nameEn": "Niger", "flag": "🇳🇪", "type": "country" },
-  "78": { "code": "78", "nameDe": "Nigeria", "nameEn": "Nigeria", "flag": "🇳🇬", "type": "country" },
-  "79": { "code": "79", "nameDe": "Norwegen", "nameEn": "Norway", "flag": "🇳🇴", "type": "country" },
-  "80": { "code": "80", "nameDe": "Österreich", "nameEn": "Austria", "flag": "🇦🇹", "type": "country" },
-  "81": { "code": "81", "nameDe": "Pakistan", "nameEn": "Pakistan", "flag": "🇵🇰", "type": "country" },
-  "82": { "code": "82", "nameDe": "Panama", "nameEn": "Panama", "flag": "🇵🇦", "type": "country" },
-  "83": { "code": "83", "nameDe": "Paraguay", "nameEn": "Paraguay", "flag": "🇵🇾", "type": "country" },
-  "84": { "code": "84", "nameDe": "Peru", "nameEn": "Peru", "flag": "🇵🇪", "type": "country" },
-  "85": { "code": "85", "nameDe": "Polen", "nameEn": "Poland", "flag": "🇵🇱", "type": "country" },
-  "86": { "code": "86", "nameDe": "Portugal", "nameEn": "Portugal", "flag": "🇵🇹", "type": "country" },
-  "87": { "code": "87", "nameDe": "Ruanda", "nameEn": "Rwanda", "flag": "🇷🇼", "type": "country" },
-  "88": { "code": "88", "nameDe": "Rumänien", "nameEn": "Romania", "flag": "🇷🇴", "type": "country" },
-  "89": { "code": "89", "nameDe": "Sambia", "nameEn": "Zambia", "flag": "🇿🇲", "type": "country" },
-  "90": { "code": "90", "nameDe": "Saudi-Arabien", "nameEn": "Saudi Arabia", "flag": "🇸🇦", "type": "country" },
-  "91": { "code": "91", "nameDe": "Schweden", "nameEn": "Sweden", "flag": "🇸🇪", "type": "country" },
-  "92": { "code": "92", "nameDe": "Schweiz", "nameEn": "Switzerland", "flag": "🇨🇭", "type": "country" },
-  "93": { "code": "93", "nameDe": "Senegal", "nameEn": "Senegal", "flag": "🇸🇳", "type": "country" },
-  "94": { "code": "94", "nameDe": "Sierra Leone", "nameEn": "Sierra Leone", "flag": "🇸🇱", "type": "country" },
-  "95": { "code": "95", "nameDe": "Singapur", "nameEn": "Singapore", "flag": "🇸🇬", "type": "country" },
-  "96": { "code": "96", "nameDe": "Somalia", "nameEn": "Somalia", "flag": "🇸🇴", "type": "country" },
-  "97": { "code": "97", "nameDe": "Spanien", "nameEn": "Spain", "flag": "🇪🇸", "type": "country" },
-  "98": { "code": "98", "nameDe": "Sri Lanka", "nameEn": "Sri Lanka", "flag": "🇱🇰", "type": "country" },
-  "99": { "code": "99", "nameDe": "Sudan", "nameEn": "Sudan", "flag": "🇸🇩", "type": "country" },
-  "100": { "code": "100", "nameDe": "Südafrika", "nameEn": "South Africa", "flag": "🇿🇦", "type": "country" },
-  "101": { "code": "101", "nameDe": "Syrien", "nameEn": "Syria", "flag": "🇸🇾", "type": "country" },
-  "102": { "code": "102", "nameDe": "Tansania", "nameEn": "Tanzania", "flag": "🇹🇿", "type": "country" },
-  "103": { "code": "103", "nameDe": "Thailand", "nameEn": "Thailand", "flag": "🇹🇭", "type": "country" },
-  "104": { "code": "104", "nameDe": "Togo", "nameEn": "Togo", "flag": "🇹🇬", "type": "country" },
-  "105": { "code": "105", "nameDe": "Trinidad und Tobago", "nameEn": "Trinidad and Tobago", "flag": "🇹🇹", "type": "country" },
-  "106": { "code": "106", "nameDe": "Tschad", "nameEn": "Chad", "flag": "🇹🇩", "type": "country" },
-  "107": { "code": "107", "nameDe": "Tschechien", "nameEn": "Czech Republic", "flag": "🇨🇿", "type": "country" },
-  "108": { "code": "108", "nameDe": "Tunesien", "nameEn": "Tunisia", "flag": "🇹🇳", "type": "country" },
-  "109": { "code": "109", "nameDe": "Türkei", "nameEn": "Turkey", "flag": "🇹🇷", "type": "country" },
-  "110": { "code": "110", "nameDe": "Uganda", "nameEn": "Uganda", "flag": "🇺🇬", "type": "country" },
-  "111": { "code": "111", "nameDe": "Russland", "nameEn": "Russia", "flag": "🇷🇺", "type": "country" },
-  "112": { "code": "112", "nameDe": "Ungarn", "nameEn": "Hungary", "flag": "🇭🇺", "type": "country" },
-  "113": { "code": "113", "nameDe": "Uruguay", "nameEn": "Uruguay", "flag": "🇺🇾", "type": "country" },
-  "114": { "code": "114", "nameDe": "Venezuela", "nameEn": "Venezuela", "flag": "🇻🇪", "type": "country" },
-  "115": { "code": "115", "nameDe": "Vietnam", "nameEn": "Vietnam", "flag": "🇻🇳", "type": "country" },
-  "116": { "code": "116", "nameDe": "Jemen", "nameEn": "Yemen", "flag": "🇾🇪", "type": "country" },
-  "117": { "code": "117", "nameDe": "Zaire", "nameEn": "Zaire", "flag": "🇨🇩", "type": "country" },
-  "118": { "code": "118", "nameDe": "Sambia", "nameEn": "Zambia", "flag": "🇿🇲", "type": "country" },
-  "119": { "code": "119", "nameDe": "Samoa", "nameEn": "Samoa", "flag": "🇼🇸", "type": "country" },
-  "120": { "code": "120", "nameDe": "Zentralafrikanische Rep.", "nameEn": "Central African Rep.", "flag": "🇨🇫", "type": "country" },
-  "121": { "code": "121", "nameDe": "Zypern", "nameEn": "Cyprus", "flag": "🇨🇾", "type": "country" },
-  "122": { "code": "122", "nameDe": "Gabun", "nameEn": "Gabon", "flag": "🇬🇦", "type": "country" },
-  "123": { "code": "123", "nameDe": "Fidschi", "nameEn": "Fiji", "flag": "🇫🇯", "type": "country" },
-  "124": { "code": "124", "nameDe": "Gambia", "nameEn": "Gambia", "flag": "🇬🇲", "type": "country" },
-  "125": { "code": "125", "nameDe": "Grenada", "nameEn": "Grenada", "flag": "🇬🇩", "type": "country" },
-  "126": { "code": "126", "nameDe": "Heiliger Stuhl", "nameEn": "Holy See", "flag": "🇻🇦", "type": "country" },
-  "127": { "code": "127", "nameDe": "Kiribati", "nameEn": "Kiribati", "flag": "🇰🇮", "type": "country" },
-  "128": { "code": "128", "nameDe": "Lesotho", "nameEn": "Lesotho", "flag": "🇱🇸", "type": "country" },
-  "129": { "code": "129", "nameDe": "Malediven", "nameEn": "Maldives", "flag": "🇲🇻", "type": "country" },
-  "130": { "code": "130", "nameDe": "Malta", "nameEn": "Malta", "flag": "🇲🇹", "type": "country" },
-  "131": { "code": "131", "nameDe": "Mauritius", "nameEn": "Mauritius", "flag": "🇲🇺", "type": "country" },
-  "132": { "code": "132", "nameDe": "Nauru", "nameEn": "Nauru", "flag": "🇳🇷", "type": "country" },
-  "133": { "code": "133", "nameDe": "Oman", "nameEn": "Oman", "flag": "🇴🇲", "type": "country" },
-  "134": { "code": "134", "nameDe": "Papua-Neuguinea", "nameEn": "Papua New Guinea", "flag": "🇵🇬", "type": "country" },
-  "135": { "code": "135", "nameDe": "Salomonen", "nameEn": "Solomon Islands", "flag": "🇸🇧", "type": "country" },
-  "136": { "code": "136", "nameDe": "Seychellen", "nameEn": "Seychelles", "flag": "🇸🇨", "type": "country" },
-  "137": { "code": "137", "nameDe": "Suriname", "nameEn": "Suriname", "flag": "🇸🇷", "type": "country" },
-  "138": { "code": "138", "nameDe": "Tonga", "nameEn": "Tonga", "flag": "🇹🇴", "type": "country" },
-  "139": { "code": "139", "nameDe": "Tuvalu", "nameEn": "Tuvalu", "flag": "🇹🇻", "type": "country" },
-  "140": { "code": "140", "nameDe": "Vanuatu", "nameEn": "Vanuatu", "flag": "🇻🇺", "type": "country" },
-  "141": { "code": "141", "nameDe": "Simbabwe", "nameEn": "Zimbabwe", "flag": "🇿🇼", "type": "country" },
-  "142": { "code": "142", "nameDe": "Belize", "nameEn": "Belize", "flag": "🇧🇿", "type": "country" },
-  "143": { "code": "143", "nameDe": "Brunei", "nameEn": "Brunei", "flag": "🇧🇳", "type": "country" },
-  "144": { "code": "144", "nameDe": "St. Kitts und Nevis", "nameEn": "St. Kitts and Nevis", "flag": "🇰🇳", "type": "country" },
-  "145": { "code": "145", "nameDe": "St. Lucia", "nameEn": "St. Lucia", "flag": "🇱🇨", "type": "country" },
-  "146": { "code": "146", "nameDe": "St. Vincent und die Grenadinen", "nameEn": "St. Vincent and the Grenadines", "flag": "🇻🇨", "type": "country" },
-  "147": { "code": "147", "nameDe": "Antigua und Barbuda", "nameEn": "Antigua and Barbuda", "flag": "🇦🇬", "type": "country" },
-  "148": { "code": "148", "nameDe": "Bhutan", "nameEn": "Bhutan", "flag": "🇧🇹", "type": "country" },
-  "149": { "code": "149", "nameDe": "Dschibuti", "nameEn": "Djibouti", "flag": "🇩🇯", "type": "country" },
-  "150": { "code": "150", "nameDe": "Dominica", "nameEn": "Dominica", "flag": "🇩🇲", "type": "country" },
-  "151": { "code": "151", "nameDe": "Äquatorialguinea", "nameEn": "Equatorial Guinea", "flag": "🇬🇶", "type": "country" },
-  "152": { "code": "152", "nameDe": "Guinea-Bissau", "nameEn": "Guinea-Bissau", "flag": "🇬🇼", "type": "country" },
-  "153": { "code": "153", "nameDe": "Zypern", "nameEn": "Cyprus", "flag": "🇨🇾", "type": "country" },
-  "154": { "code": "154", "nameDe": "Katar", "nameEn": "Qatar", "flag": "🇶🇦", "type": "country" },
-  "155": { "code": "155", "nameDe": "Mikronesien", "nameEn": "Micronesia", "flag": "🇫🇲", "type": "country" },
-  "156": { "code": "156", "nameDe": "Namibia", "nameEn": "Namibia", "flag": "🇳🇦", "type": "country" },
-  "157": { "code": "157", "nameDe": "Estland", "nameEn": "Estonia", "flag": "🇪🇪", "type": "country" },
-  "158": { "code": "158", "nameDe": "Lettland", "nameEn": "Latvia", "flag": "🇱🇻", "type": "country" },
-  "159": { "code": "159", "nameDe": "Litauen", "nameEn": "Lithuania", "flag": "🇱🇹", "type": "country" },
-  "160": { "code": "160", "nameDe": "Ukraine", "nameEn": "Ukraine", "flag": "🇺🇦", "type": "country" },
-  "161": { "code": "161", "nameDe": "Belarus", "nameEn": "Belarus", "flag": "🇧🇾", "type": "country" },
-  "162": { "code": "162", "nameDe": "Kasachstan", "nameEn": "Kazakhstan", "flag": "🇰🇿", "type": "country" },
-  "163": { "code": "163", "nameDe": "Moldau", "nameEn": "Moldova", "flag": "🇲🇩", "type": "country" },
-  "164": { "code": "164", "nameDe": "Georgien", "nameEn": "Georgia", "flag": "🇬🇪", "type": "country" },
-  "165": { "code": "165", "nameDe": "Armenien", "nameEn": "Armenia", "flag": "🇦🇲", "type": "country" },
-  "166": { "code": "166", "nameDe": "Aserbaidschan", "nameEn": "Azerbaijan", "flag": "🇦🇿", "type": "country" },
-  "167": { "code": "167", "nameDe": "Usbekistan", "nameEn": "Uzbekistan", "flag": "🇺🇿", "type": "country" },
-  "168": { "code": "168", "nameDe": "Turkmenistan", "nameEn": "Turkmenistan", "flag": "🇹🇲", "type": "country" },
-  "169": { "code": "169", "nameDe": "Tadschikistan", "nameEn": "Tajikistan", "flag": "🇹🇯", "type": "country" },
-  "170": { "code": "170", "nameDe": "Vereinte Nationen (UN)", "nameEn": "United Nations (UN)", "flag": "🇺🇳", "type": "organization" },
-  "171": { "code": "171", "nameDe": "Internationale Arbeitsorganisation (ILO)", "nameEn": "International Labour Organization (ILO)", "flag": "🇺🇳", "type": "organization" },
-  "172": { "code": "172", "nameDe": "UNESCO", "nameEn": "UNESCO", "flag": "🇺🇳", "type": "organization" },
-  "173": { "code": "173", "nameDe": "UNHCR", "nameEn": "UNHCR", "flag": "🇺🇳", "type": "organization" },
-  "174": { "code": "174", "nameDe": "Weltgesundheitsorganisation (WHO)", "nameEn": "World Health Organization (WHO)", "flag": "🇺🇳", "type": "organization" },
-  "175": { "code": "175", "nameDe": "Weltbank (IBRD)", "nameEn": "World Bank (IBRD)", "flag": "🏦", "type": "organization" },
-  "176": { "code": "176", "nameDe": "Internationaler Währungsfonds (IWF)", "nameEn": "International Monetary Fund (IMF)", "flag": "🏦", "type": "organization" },
-  "177": { "code": "177", "nameDe": "ICAO", "nameEn": "ICAO", "flag": "✈️", "type": "organization" },
-  "178": { "code": "178", "nameDe": "ITU", "nameEn": "ITU", "flag": "📡", "type": "organization" },
-  "179": { "code": "179", "nameDe": "WMO", "nameEn": "WMO", "flag": "☁️", "type": "organization" },
-  "180": { "code": "180", "nameDe": "IMO", "nameEn": "IMO", "flag": "🚢", "type": "organization" },
-  "181": { "code": "181", "nameDe": "IAEA", "nameEn": "IAEA", "flag": "⚛️", "type": "organization" },
-  "182": { "code": "182", "nameDe": "Europäische Union (EU)", "nameEn": "European Union (EU)", "flag": "🇪🇺", "type": "organization" },
-  "183": { "code": "183", "nameDe": "ESA", "nameEn": "ESA", "flag": "🚀", "type": "organization" },
-  "184": { "code": "184", "nameDe": "EUROCONTROL", "nameEn": "EUROCONTROL", "flag": "✈️", "type": "organization" },
-  "185": { "code": "185", "nameDe": "Europäisches Patentamt (EPA)", "nameEn": "European Patent Office (EPO)", "flag": "📄", "type": "organization" },
-  "186": { "code": "186", "nameDe": "EMBL", "nameEn": "EMBL", "flag": "🧬", "type": "organization" },
-  "187": { "code": "187", "nameDe": "ECMWF", "nameEn": "ECMWF", "flag": "☁️", "type": "organization" },
-  "188": { "code": "188", "nameDe": "EUMETSAT", "nameEn": "EUMETSAT", "flag": "🛰️", "type": "organization" },
-  "189": { "code": "189", "nameDe": "CERN", "nameEn": "CERN", "flag": "⚛️", "type": "organization" },
-  "190": { "code": "190", "nameDe": "ESO", "nameEn": "ESO", "flag": "🔭", "type": "organization" },
-  "191": { "code": "191", "nameDe": "EBI", "nameEn": "EBI", "flag": "🧬", "type": "organization" },
-  "192": { "code": "192", "nameDe": "Europäische Zentralbank (EZB)", "nameEn": "European Central Bank (ECB)", "flag": "💶", "type": "organization" },
-  "193": { "code": "193", "nameDe": "Europäisches Polizeiamt (Europol)", "nameEn": "Europol", "flag": "👮", "type": "organization" },
-  "194": { "code": "194", "nameDe": "OSZE", "nameEn": "OSCE", "flag": "🤝", "type": "organization" },
-  "195": { "code": "195", "nameDe": "Eurojust", "nameEn": "Eurojust", "flag": "⚖️", "type": "organization" },
-  "196": { "code": "196", "nameDe": "Europäische Agentur für Flugsicherheit (EASA)", "nameEn": "EASA", "flag": "✈️", "type": "organization" },
-  "197": { "code": "197", "nameDe": "Europäische Eisenbahnagentur (ERA)", "nameEn": "ERA", "flag": "🚆", "type": "organization" },
-  "198": { "code": "198", "nameDe": "Europäische Aufsichtsbehörde für das Versicherungswesen (EIOPA)", "nameEn": "EIOPA", "flag": "🛡️", "type": "organization" },
-  "199": { "code": "199", "nameDe": "Europäische Bankenaufsichtsbehörde (EBA)", "nameEn": "EBA", "flag": "🏦", "type": "organization" },
-  "200": { "code": "200", "nameDe": "Europäische Wertpapier- und Marktaufsichtsbehörde (ESMA)", "nameEn": "ESMA", "flag": "📈", "type": "organization" },
-  "201": { "code": "201", "nameDe": "Europäische Agentur für das Betriebsmanagement von IT-Großsystemen (eu-LISA)", "nameEn": "eu-LISA", "flag": "💻", "type": "organization" },
-  "202": { "code": "202", "nameDe": "Europäische Staatsanwaltschaft (EUStA)", "nameEn": "EPPO", "flag": "⚖️", "type": "organization" },
-  "203": { "code": "203", "nameDe": "Europäische Arbeitsbehörde (ELA)", "nameEn": "ELA", "flag": "👷", "type": "organization" },
-  "204": { "code": "204", "nameDe": "Europäische Arzneimittel-Agentur (EMA)", "nameEn": "EMA", "flag": "💊", "type": "organization" }
+  "10": {
+    "code": "10",
+    "nameDe": "Nuntiatur",
+    "nameEn": "apostolic nunciature",
+    "flag": "🇻🇦",
+    "type": "mission"
+  },
+  "11": {
+    "code": "11",
+    "nameDe": "Ägypten",
+    "nameEn": "Egypt",
+    "flag": "🇪🇬",
+    "type": "mission"
+  },
+  "12": {
+    "code": "12",
+    "nameDe": "Angola",
+    "nameEn": "Angola",
+    "flag": "🇦🇴",
+    "type": "mission"
+  },
+  "13": {
+    "code": "13",
+    "nameDe": "Albanien",
+    "nameEn": "Albania",
+    "flag": "🇦🇱",
+    "type": "mission"
+  },
+  "14": {
+    "code": "14",
+    "nameDe": "Äthiopien",
+    "nameEn": "Ethiopia",
+    "flag": "🇪🇹",
+    "type": "mission"
+  },
+  "15": {
+    "code": "15",
+    "nameDe": "Afghanistan",
+    "nameEn": "Afghanistan",
+    "flag": "🇦🇫",
+    "type": "mission"
+  },
+  "16": {
+    "code": "16",
+    "nameDe": "Algerien",
+    "nameEn": "Algeria",
+    "flag": "🇩🇿",
+    "type": "mission"
+  },
+  "17": {
+    "code": "17",
+    "nameDe": "Amerika (Vereinigte Staaten)",
+    "nameEn": "United States",
+    "flag": "🇺🇸",
+    "type": "mission"
+  },
+  "18": {
+    "code": "18",
+    "nameDe": "Argentinien",
+    "nameEn": "Argentina",
+    "flag": "🇦🇷",
+    "type": "mission"
+  },
+  "19": {
+    "code": "19",
+    "nameDe": "Australien",
+    "nameEn": "Australia",
+    "flag": "🇦🇺",
+    "type": "mission"
+  },
+  "20": {
+    "code": "20",
+    "nameDe": "Bangladesch",
+    "nameEn": "Bangladesh",
+    "flag": "🇧🇩",
+    "type": "mission"
+  },
+  "21": {
+    "code": "21",
+    "nameDe": "Belgien",
+    "nameEn": "Belgium",
+    "flag": "🇧🇪",
+    "type": "mission"
+  },
+  "22": {
+    "code": "22",
+    "nameDe": "Brunei Darussalam",
+    "nameEn": "Brunei",
+    "flag": "🇧🇳",
+    "type": "mission"
+  },
+  "23": {
+    "code": "23",
+    "nameDe": "Bulgarien",
+    "nameEn": "Bulgaria",
+    "flag": "🇧🇬",
+    "type": "mission"
+  },
+  "24": {
+    "code": "24",
+    "nameDe": "Myanmar",
+    "nameEn": "Myanmar",
+    "flag": "🇲🇲",
+    "type": "mission"
+  },
+  "25": {
+    "code": "25",
+    "nameDe": "Bolivien",
+    "nameEn": "Bolivia",
+    "flag": "🇧🇴",
+    "type": "mission"
+  },
+  "26": {
+    "code": "26",
+    "nameDe": "Brasilien",
+    "nameEn": "Brazil",
+    "flag": "🇧🇷",
+    "type": "mission"
+  },
+  "27": {
+    "code": "27",
+    "nameDe": "Burundi",
+    "nameEn": "Burundi",
+    "flag": "🇧🇮",
+    "type": "mission"
+  },
+  "28": {
+    "code": "28",
+    "nameDe": "Chile",
+    "nameEn": "Chile",
+    "flag": "🇨🇱",
+    "type": "mission"
+  },
+  "29": {
+    "code": "29",
+    "nameDe": "China (Volksrepublik)",
+    "nameEn": "People's Republic of China",
+    "flag": "🇨🇳",
+    "type": "mission"
+  },
+  "30": {
+    "code": "30",
+    "nameDe": "Costa Rica",
+    "nameEn": "Costa Rica",
+    "flag": "🇨🇷",
+    "type": "mission"
+  },
+  "31": {
+    "code": "31",
+    "nameDe": "Belarus (Weißrußland)",
+    "nameEn": "Belarus",
+    "flag": "🇧🇾",
+    "type": "mission"
+  },
+  "32": {
+    "code": "32",
+    "nameDe": "Bosnien und Herzegowina",
+    "nameEn": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "type": "mission"
+  },
+  "33": {
+    "code": "33",
+    "nameDe": "Äquatorialguinea",
+    "nameEn": "Equatorial Guinea",
+    "flag": "🇬🇶",
+    "type": "mission"
+  },
+  "34": {
+    "code": "34",
+    "nameDe": "Dänemark",
+    "nameEn": "Denmark",
+    "flag": "🇩🇰",
+    "type": "mission"
+  },
+  "35": {
+    "code": "35",
+    "nameDe": "Benin",
+    "nameEn": "Benin",
+    "flag": "🇧🇯",
+    "type": "mission"
+  },
+  "36": {
+    "code": "36",
+    "nameDe": "Dominikanische Republik",
+    "nameEn": "Dominican Republic",
+    "flag": "🇩🇴",
+    "type": "mission"
+  },
+  "37": {
+    "code": "37",
+    "nameDe": "Ecuador",
+    "nameEn": "Ecuador",
+    "flag": "🇪🇨",
+    "type": "mission"
+  },
+  "38": {
+    "code": "38",
+    "nameDe": "Côte d'Ivoire (Elfenbeinküste)",
+    "nameEn": "Ivory Coast",
+    "flag": "🇨🇮",
+    "type": "mission"
+  },
+  "39": {
+    "code": "39",
+    "nameDe": "El Salvador",
+    "nameEn": "El Salvador",
+    "flag": "🇸🇻",
+    "type": "mission"
+  },
+  "40": {
+    "code": "40",
+    "nameDe": "Republik Kosovo",
+    "nameEn": "Kosovo",
+    "flag": "🇽🇰",
+    "type": "mission"
+  },
+  "41": {
+    "code": "41",
+    "nameDe": "Estland",
+    "nameEn": "Estonia",
+    "flag": "🇪🇪",
+    "type": "mission"
+  },
+  "42": {
+    "code": "42",
+    "nameDe": "Liechtenstein",
+    "nameEn": "Liechtenstein",
+    "flag": "🇱🇮",
+    "type": "mission"
+  },
+  "43": {
+    "code": "43",
+    "nameDe": "Montenegro",
+    "nameEn": "Montenegro",
+    "flag": "🇲🇪",
+    "type": "mission"
+  },
+  "44": {
+    "code": "44",
+    "nameDe": "Finnland",
+    "nameEn": "Finland",
+    "flag": "🇫🇮",
+    "type": "mission"
+  },
+  "45": {
+    "code": "45",
+    "nameDe": "Frankreich",
+    "nameEn": "France",
+    "flag": "🇫🇷",
+    "type": "mission"
+  },
+  "46": {
+    "code": "46",
+    "nameDe": "Gabun",
+    "nameEn": "Gabon",
+    "flag": "🇬🇦",
+    "type": "mission"
+  },
+  "47": {
+    "code": "47",
+    "nameDe": "Ghana",
+    "nameEn": "Ghana",
+    "flag": "🇬🇭",
+    "type": "mission"
+  },
+  "48": {
+    "code": "48",
+    "nameDe": "Griechenland",
+    "nameEn": "Greece",
+    "flag": "🇬🇷",
+    "type": "mission"
+  },
+  "49": {
+    "code": "49",
+    "nameDe": "Großbritannien",
+    "nameEn": "United Kingdom",
+    "flag": "🇬🇧",
+    "type": "mission"
+  },
+  "50": {
+    "code": "50",
+    "nameDe": "Guatemala",
+    "nameEn": "Guatemala",
+    "flag": "🇬🇹",
+    "type": "mission"
+  },
+  "51": {
+    "code": "51",
+    "nameDe": "Guinea",
+    "nameEn": "Guinea",
+    "flag": "🇬🇳",
+    "type": "mission"
+  },
+  "52": {
+    "code": "52",
+    "nameDe": "Lettland",
+    "nameEn": "Latvia",
+    "flag": "🇱🇻",
+    "type": "mission"
+  },
+  "53": {
+    "code": "53",
+    "nameDe": "Litauen",
+    "nameEn": "Lithuania",
+    "flag": "🇱🇹",
+    "type": "mission"
+  },
+  "54": {
+    "code": "54",
+    "nameDe": "Haiti",
+    "nameEn": "Haiti",
+    "flag": "🇭🇹",
+    "type": "mission"
+  },
+  "55": {
+    "code": "55",
+    "nameDe": "Honduras",
+    "nameEn": "Honduras",
+    "flag": "🇭🇳",
+    "type": "mission"
+  },
+  "56": {
+    "code": "56",
+    "nameDe": "Indien",
+    "nameEn": "India",
+    "flag": "🇮🇳",
+    "type": "mission"
+  },
+  "57": {
+    "code": "57",
+    "nameDe": "Indonesien",
+    "nameEn": "Indonesia",
+    "flag": "🇮🇩",
+    "type": "mission"
+  },
+  "58": {
+    "code": "58",
+    "nameDe": "Irak",
+    "nameEn": "Iraq",
+    "flag": "🇮🇶",
+    "type": "mission"
+  },
+  "59": {
+    "code": "59",
+    "nameDe": "Iran",
+    "nameEn": "Iran",
+    "flag": "🇮🇷",
+    "type": "mission"
+  },
+  "60": {
+    "code": "60",
+    "nameDe": "Irland",
+    "nameEn": "Ireland",
+    "flag": "🇮🇪",
+    "type": "mission"
+  },
+  "61": {
+    "code": "61",
+    "nameDe": "Island",
+    "nameEn": "Iceland",
+    "flag": "🇮🇸",
+    "type": "mission"
+  },
+  "62": {
+    "code": "62",
+    "nameDe": "Laos",
+    "nameEn": "Laos",
+    "flag": "🇱🇦",
+    "type": "mission"
+  },
+  "63": {
+    "code": "63",
+    "nameDe": "Kap Verde",
+    "nameEn": "Cape Verde",
+    "flag": "🇨🇻",
+    "type": "mission"
+  },
+  "64": {
+    "code": "64",
+    "nameDe": "Israel",
+    "nameEn": "Israel",
+    "flag": "🇮🇱",
+    "type": "mission"
+  },
+  "65": {
+    "code": "65",
+    "nameDe": "Italien",
+    "nameEn": "Italy",
+    "flag": "🇮🇹",
+    "type": "mission"
+  },
+  "66": {
+    "code": "66",
+    "nameDe": "Jamaika",
+    "nameEn": "Jamaica",
+    "flag": "🇯🇲",
+    "type": "mission"
+  },
+  "67": {
+    "code": "67",
+    "nameDe": "Japan",
+    "nameEn": "Japan",
+    "flag": "🇯🇵",
+    "type": "mission"
+  },
+  "68": {
+    "code": "68",
+    "nameDe": "Jemen",
+    "nameEn": "Yemen",
+    "flag": "🇾🇪",
+    "type": "mission"
+  },
+  "69": {
+    "code": "69",
+    "nameDe": "Jordanien",
+    "nameEn": "Jordan",
+    "flag": "🇯🇴",
+    "type": "mission"
+  },
+  "70": {
+    "code": "70",
+    "nameDe": "Serbien",
+    "nameEn": "Serbia",
+    "flag": "🇷🇸",
+    "type": "mission"
+  },
+  "71": {
+    "code": "71",
+    "nameDe": "Kuwait",
+    "nameEn": "Kuwait",
+    "flag": "🇰🇼",
+    "type": "mission"
+  },
+  "72": {
+    "code": "72",
+    "nameDe": "Kuba",
+    "nameEn": "Cuba",
+    "flag": "🇨🇺",
+    "type": "mission"
+  },
+  "73": {
+    "code": "73",
+    "nameDe": "Katar",
+    "nameEn": "Qatar",
+    "flag": "🇶🇦",
+    "type": "mission"
+  },
+  "74": {
+    "code": "74",
+    "nameDe": "Kamerun",
+    "nameEn": "Cameroon",
+    "flag": "🇨🇲",
+    "type": "mission"
+  },
+  "75": {
+    "code": "75",
+    "nameDe": "Kanada",
+    "nameEn": "Canada",
+    "flag": "🇨🇦",
+    "type": "mission"
+  },
+  "76": {
+    "code": "76",
+    "nameDe": "Kenia",
+    "nameEn": "Kenya",
+    "flag": "🇰🇪",
+    "type": "mission"
+  },
+  "77": {
+    "code": "77",
+    "nameDe": "Kolumbien",
+    "nameEn": "Colombia",
+    "flag": "🇨🇴",
+    "type": "mission"
+  },
+  "78": {
+    "code": "78",
+    "nameDe": "Kongo",
+    "nameEn": "Democratic Republic of the Congo",
+    "flag": "🇨🇩",
+    "type": "mission"
+  },
+  "79": {
+    "code": "79",
+    "nameDe": "Korea (Republik)",
+    "nameEn": "South Korea",
+    "flag": "🇰🇷",
+    "type": "mission"
+  },
+  "80": {
+    "code": "80",
+    "nameDe": "Libanon",
+    "nameEn": "Lebanon",
+    "flag": "🇱🇧",
+    "type": "mission"
+  },
+  "81": {
+    "code": "81",
+    "nameDe": "Liberia",
+    "nameEn": "Liberia",
+    "flag": "🇱🇷",
+    "type": "mission"
+  },
+  "82": {
+    "code": "82",
+    "nameDe": "Libyen",
+    "nameEn": "Libya",
+    "flag": "🇱🇾",
+    "type": "mission"
+  },
+  "83": {
+    "code": "83",
+    "nameDe": "Lesotho",
+    "nameEn": "Lesotho",
+    "flag": "🇱🇸",
+    "type": "mission"
+  },
+  "84": {
+    "code": "84",
+    "nameDe": "Luxemburg",
+    "nameEn": "Luxembourg",
+    "flag": "🇱🇺",
+    "type": "mission"
+  },
+  "85": {
+    "code": "85",
+    "nameDe": "Madagaskar",
+    "nameEn": "Madagascar",
+    "flag": "🇲🇬",
+    "type": "mission"
+  },
+  "86": {
+    "code": "86",
+    "nameDe": "Malawi",
+    "nameEn": "Malawi",
+    "flag": "🇲🇼",
+    "type": "mission"
+  },
+  "87": {
+    "code": "87",
+    "nameDe": "Malaysia",
+    "nameEn": "Malaysia",
+    "flag": "🇲🇾",
+    "type": "mission"
+  },
+  "88": {
+    "code": "88",
+    "nameDe": "Mali",
+    "nameEn": "Mali",
+    "flag": "🇲🇱",
+    "type": "mission"
+  },
+  "89": {
+    "code": "89",
+    "nameDe": "Marokko",
+    "nameEn": "Morocco",
+    "flag": "🇲🇦",
+    "type": "mission"
+  },
+  "90": {
+    "code": "90",
+    "nameDe": "Mauretanien",
+    "nameEn": "Mauritania",
+    "flag": "🇲🇷",
+    "type": "mission"
+  },
+  "91": {
+    "code": "91",
+    "nameDe": "Mexiko",
+    "nameEn": "Mexico",
+    "flag": "🇲🇽",
+    "type": "mission"
+  },
+  "92": {
+    "code": "92",
+    "nameDe": "Malta",
+    "nameEn": "Malta",
+    "flag": "🇲🇹",
+    "type": "mission"
+  },
+  "93": {
+    "code": "93",
+    "nameDe": "Monaco",
+    "nameEn": "Monaco",
+    "flag": "🇲🇨",
+    "type": "mission"
+  },
+  "94": {
+    "code": "94",
+    "nameDe": "Nepal",
+    "nameEn": "Nepal",
+    "flag": "🇳🇵",
+    "type": "mission"
+  },
+  "95": {
+    "code": "95",
+    "nameDe": "Neuseeland",
+    "nameEn": "New Zealand",
+    "flag": "🇳🇿",
+    "type": "mission"
+  },
+  "96": {
+    "code": "96",
+    "nameDe": "Nicaragua",
+    "nameEn": "Nicaragua",
+    "flag": "🇳🇮",
+    "type": "mission"
+  },
+  "97": {
+    "code": "97",
+    "nameDe": "Niederlande",
+    "nameEn": "Netherlands",
+    "flag": "🇳🇱",
+    "type": "mission"
+  },
+  "98": {
+    "code": "98",
+    "nameDe": "Niger",
+    "nameEn": "Niger",
+    "flag": "🇳🇪",
+    "type": "mission"
+  },
+  "99": {
+    "code": "99",
+    "nameDe": "Nigeria",
+    "nameEn": "Nigeria",
+    "flag": "🇳🇬",
+    "type": "mission"
+  },
+  "100": {
+    "code": "100",
+    "nameDe": "Norwegen",
+    "nameEn": "Norway",
+    "flag": "🇳🇴",
+    "type": "mission"
+  },
+  "101": {
+    "code": "101",
+    "nameDe": "Mongolei",
+    "nameEn": "Mongolia",
+    "flag": "🇲🇳",
+    "type": "mission"
+  },
+  "102": {
+    "code": "102",
+    "nameDe": "Mosambik",
+    "nameEn": "Mozambique",
+    "flag": "🇲🇿",
+    "type": "mission"
+  },
+  "103": {
+    "code": "103",
+    "nameDe": "Oman",
+    "nameEn": "Oman",
+    "flag": "🇴🇲",
+    "type": "mission"
+  },
+  "104": {
+    "code": "104",
+    "nameDe": "Burkina Faso",
+    "nameEn": "Burkina Faso",
+    "flag": "🇧🇫",
+    "type": "mission"
+  },
+  "105": {
+    "code": "105",
+    "nameDe": "Österreich",
+    "nameEn": "Austria",
+    "flag": "🇦🇹",
+    "type": "mission"
+  },
+  "106": {
+    "code": "106",
+    "nameDe": "Pakistan",
+    "nameEn": "Pakistan",
+    "flag": "🇵🇰",
+    "type": "mission"
+  },
+  "107": {
+    "code": "107",
+    "nameDe": "Panama",
+    "nameEn": "Panama",
+    "flag": "🇵🇦",
+    "type": "mission"
+  },
+  "108": {
+    "code": "108",
+    "nameDe": "Paraguay",
+    "nameEn": "Paraguay",
+    "flag": "🇵🇾",
+    "type": "mission"
+  },
+  "109": {
+    "code": "109",
+    "nameDe": "Peru",
+    "nameEn": "Peru",
+    "flag": "🇵🇪",
+    "type": "mission"
+  },
+  "110": {
+    "code": "110",
+    "nameDe": "Philippinen",
+    "nameEn": "Philippines",
+    "flag": "🇵🇭",
+    "type": "mission"
+  },
+  "111": {
+    "code": "111",
+    "nameDe": "Polen",
+    "nameEn": "Poland",
+    "flag": "🇵🇱",
+    "type": "mission"
+  },
+  "112": {
+    "code": "112",
+    "nameDe": "Portugal",
+    "nameEn": "Portugal",
+    "flag": "🇵🇹",
+    "type": "mission"
+  },
+  "113": {
+    "code": "113",
+    "nameDe": "Papua-Neuguinea",
+    "nameEn": "Papua New Guinea",
+    "flag": "🇵🇬",
+    "type": "mission"
+  },
+  "114": {
+    "code": "114",
+    "nameDe": "Namibia",
+    "nameEn": "Namibia",
+    "flag": "🇳🇦",
+    "type": "mission"
+  },
+  "115": {
+    "code": "115",
+    "nameDe": "Ruanda",
+    "nameEn": "Rwanda",
+    "flag": "🇷🇼",
+    "type": "mission"
+  },
+  "116": {
+    "code": "116",
+    "nameDe": "Rumänien",
+    "nameEn": "Romania",
+    "flag": "🇷🇴",
+    "type": "mission"
+  },
+  "117": {
+    "code": "117",
+    "nameDe": "Sambia",
+    "nameEn": "Zambia",
+    "flag": "🇿🇲",
+    "type": "mission"
+  },
+  "118": {
+    "code": "118",
+    "nameDe": "Saudi-Arabien",
+    "nameEn": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "type": "mission"
+  },
+  "119": {
+    "code": "119",
+    "nameDe": "Schweden",
+    "nameEn": "Sweden",
+    "flag": "🇸🇪",
+    "type": "mission"
+  },
+  "120": {
+    "code": "120",
+    "nameDe": "Schweiz",
+    "nameEn": "Switzerland",
+    "flag": "🇨🇭",
+    "type": "mission"
+  },
+  "121": {
+    "code": "121",
+    "nameDe": "Senegal",
+    "nameEn": "Senegal",
+    "flag": "🇸🇳",
+    "type": "mission"
+  },
+  "122": {
+    "code": "122",
+    "nameDe": "Sierra Leone",
+    "nameEn": "Sierra Leone",
+    "flag": "🇸🇱",
+    "type": "mission"
+  },
+  "123": {
+    "code": "123",
+    "nameDe": "Singapur",
+    "nameEn": "Singapore",
+    "flag": "🇸🇬",
+    "type": "mission"
+  },
+  "124": {
+    "code": "124",
+    "nameDe": "Simbabwe",
+    "nameEn": "Zimbabwe",
+    "flag": "🇿🇼",
+    "type": "mission"
+  },
+  "126": {
+    "code": "126",
+    "nameDe": "Spanien",
+    "nameEn": "Spain",
+    "flag": "🇪🇸",
+    "type": "mission"
+  },
+  "127": {
+    "code": "127",
+    "nameDe": "Sri Lanka",
+    "nameEn": "Sri Lanka",
+    "flag": "🇱🇰",
+    "type": "mission"
+  },
+  "128": {
+    "code": "128",
+    "nameDe": "Sudan",
+    "nameEn": "Sudan",
+    "flag": "🇸🇩",
+    "type": "mission"
+  },
+  "129": {
+    "code": "129",
+    "nameDe": "Südafrika",
+    "nameEn": "South Africa",
+    "flag": "🇿🇦",
+    "type": "mission"
+  },
+  "130": {
+    "code": "130",
+    "nameDe": "Syrien",
+    "nameEn": "Syria",
+    "flag": "🇸🇾",
+    "type": "mission"
+  },
+  "131": {
+    "code": "131",
+    "nameDe": "Tansania",
+    "nameEn": "Tanzania",
+    "flag": "🇹🇿",
+    "type": "mission"
+  },
+  "132": {
+    "code": "132",
+    "nameDe": "Thailand",
+    "nameEn": "Thailand",
+    "flag": "🇹🇭",
+    "type": "mission"
+  },
+  "133": {
+    "code": "133",
+    "nameDe": "Togo",
+    "nameEn": "Togo",
+    "flag": "🇹🇬",
+    "type": "mission"
+  },
+  "134": {
+    "code": "134",
+    "nameDe": "Tonga",
+    "nameEn": "Tonga",
+    "flag": "🇹🇴",
+    "type": "mission"
+  },
+  "135": {
+    "code": "135",
+    "nameDe": "Tschechische Republik",
+    "nameEn": "Czech Republic",
+    "flag": "🇨🇿",
+    "type": "mission"
+  },
+  "136": {
+    "code": "136",
+    "nameDe": "Tschad",
+    "nameEn": "Chad",
+    "flag": "🇹🇩",
+    "type": "mission"
+  },
+  "137": {
+    "code": "137",
+    "nameDe": "Türkei",
+    "nameEn": "Turkey",
+    "flag": "🇹🇷",
+    "type": "mission"
+  },
+  "138": {
+    "code": "138",
+    "nameDe": "Tunesien",
+    "nameEn": "Tunisia",
+    "flag": "🇹🇳",
+    "type": "mission"
+  },
+  "139": {
+    "code": "139",
+    "nameDe": "Uganda",
+    "nameEn": "Uganda",
+    "flag": "🇺🇬",
+    "type": "mission"
+  },
+  "140": {
+    "code": "140",
+    "nameDe": "Russische Föderation",
+    "nameEn": "Russia",
+    "flag": "🇷🇺",
+    "type": "mission"
+  },
+  "141": {
+    "code": "141",
+    "nameDe": "Uruguay",
+    "nameEn": "Uruguay",
+    "flag": "🇺🇾",
+    "type": "mission"
+  },
+  "142": {
+    "code": "142",
+    "nameDe": "Ungarn",
+    "nameEn": "Hungary",
+    "flag": "🇭🇺",
+    "type": "mission"
+  },
+  "143": {
+    "code": "143",
+    "nameDe": "Ukraine",
+    "nameEn": "Ukraine",
+    "flag": "🇺🇦",
+    "type": "mission"
+  },
+  "146": {
+    "code": "146",
+    "nameDe": "Venezuela",
+    "nameEn": "Venezuela",
+    "flag": "🇻🇪",
+    "type": "mission"
+  },
+  "147": {
+    "code": "147",
+    "nameDe": "Vietnam",
+    "nameEn": "Vietnam",
+    "flag": "🇻🇳",
+    "type": "mission"
+  },
+  "148": {
+    "code": "148",
+    "nameDe": "Vereinigte Arabische Emirate",
+    "nameEn": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "type": "mission"
+  },
+  "151": {
+    "code": "151",
+    "nameDe": "Demokratische Republik Kongo",
+    "nameEn": "Democratic Republic of the Congo",
+    "flag": "🇨🇩",
+    "type": "mission"
+  },
+  "152": {
+    "code": "152",
+    "nameDe": "Zentralafrikanische Republik",
+    "nameEn": "Central African Republic",
+    "flag": "🇨🇫",
+    "type": "mission"
+  },
+  "153": {
+    "code": "153",
+    "nameDe": "Zypern",
+    "nameEn": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "mission"
+  },
+  "154": {
+    "code": "154",
+    "nameDe": "Kroatien",
+    "nameEn": "Croatia",
+    "flag": "🇭🇷",
+    "type": "mission"
+  },
+  "155": {
+    "code": "155",
+    "nameDe": "Slowenien",
+    "nameEn": "Slovenia",
+    "flag": "🇸🇮",
+    "type": "mission"
+  },
+  "156": {
+    "code": "156",
+    "nameDe": "Aserbaidschan",
+    "nameEn": "Azerbaijan",
+    "flag": "🇦🇿",
+    "type": "mission"
+  },
+  "157": {
+    "code": "157",
+    "nameDe": "Slowakische Republik",
+    "nameEn": "Slovakia",
+    "flag": "🇸🇰",
+    "type": "mission"
+  },
+  "158": {
+    "code": "158",
+    "nameDe": "Kasachstan",
+    "nameEn": "Kazakhstan",
+    "flag": "🇰🇿",
+    "type": "mission"
+  },
+  "159": {
+    "code": "159",
+    "nameDe": "Mazedonien",
+    "nameEn": "North Macedonia",
+    "flag": "🇲🇰",
+    "type": "mission"
+  },
+  "160": {
+    "code": "160",
+    "nameDe": "Usbekistan",
+    "nameEn": "Uzbekistan",
+    "flag": "🇺🇿",
+    "type": "mission"
+  },
+  "161": {
+    "code": "161",
+    "nameDe": "Eritrea",
+    "nameEn": "Eritrea",
+    "flag": "🇪🇷",
+    "type": "mission"
+  },
+  "162": {
+    "code": "162",
+    "nameDe": "Georgien",
+    "nameEn": "Georgia",
+    "flag": "🇬🇪",
+    "type": "mission"
+  },
+  "163": {
+    "code": "163",
+    "nameDe": "Tadschikistan",
+    "nameEn": "Tajikistan",
+    "flag": "🇹🇯",
+    "type": "mission"
+  },
+  "164": {
+    "code": "164",
+    "nameDe": "Bahrain",
+    "nameEn": "Bahrain",
+    "flag": "🇧🇭",
+    "type": "mission"
+  },
+  "165": {
+    "code": "165",
+    "nameDe": "Kambodscha",
+    "nameEn": "Cambodia",
+    "flag": "🇰🇭",
+    "type": "mission"
+  },
+  "166": {
+    "code": "166",
+    "nameDe": "Armenien",
+    "nameEn": "Armenia",
+    "flag": "🇦🇲",
+    "type": "mission"
+  },
+  "167": {
+    "code": "167",
+    "nameDe": "Kirgisistan",
+    "nameEn": "Kyrgyzstan",
+    "flag": "🇰🇬",
+    "type": "mission"
+  },
+  "168": {
+    "code": "168",
+    "nameDe": "Moldau",
+    "nameEn": "Moldova",
+    "flag": "🇲🇩",
+    "type": "mission"
+  },
+  "169": {
+    "code": "169",
+    "nameDe": "Turkmenistan",
+    "nameEn": "Turkmenistan",
+    "flag": "🇹🇲",
+    "type": "mission"
+  },
+  "200": {
+    "code": "200",
+    "nameDe": "Mauritius",
+    "nameEn": "Mauritius",
+    "flag": "🇲🇺",
+    "type": "mission"
+  },
+  "201": {
+    "code": "201",
+    "nameDe": "Demokratische Volksrepublik Korea",
+    "nameEn": "North Korea",
+    "flag": "🇰🇵",
+    "type": "mission"
+  },
+  "202": {
+    "code": "202",
+    "nameDe": "Dschibuti",
+    "nameEn": "Djibouti",
+    "flag": "🇩🇯",
+    "type": "mission"
+  },
+  "203": {
+    "code": "203",
+    "nameDe": "Guinea-Bissau",
+    "nameEn": "Guinea-Bissau",
+    "flag": "🇬🇼",
+    "type": "mission"
+  },
+  "204": {
+    "code": "204",
+    "nameDe": "Südsudan",
+    "nameEn": "South Sudan",
+    "flag": "🇸🇸",
+    "type": "mission"
+  },
+  "205": {
+    "code": "205",
+    "nameDe": "Botsuana",
+    "nameEn": "Botswana",
+    "flag": "🇧🇼",
+    "type": "mission"
+  },
+  "206": {
+    "code": "206",
+    "nameDe": "Malediven",
+    "nameEn": "Maldives",
+    "flag": "🇲🇻",
+    "type": "mission"
+  },
+  "170": {
+    "code": "170",
+    "nameDe": "Internationales Arbeitsamt (ILO), Bonn",
+    "nameEn": "International Labour Organization (ILO)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "171": {
+    "code": "171",
+    "nameDe": "Europäische Zentralbank (EZB), Frankfurt",
+    "nameEn": "European Central Bank (ECB)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "172": {
+    "code": "172",
+    "nameDe": "Europäische Agentur für Flugsicherheit (EASA)",
+    "nameEn": "European Union Aviation Safety Agency (EASA)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "173": {
+    "code": "173",
+    "nameDe": "Vereinte Nationen - Der Hohe Flüchtlingskommissar (UNHCR), Berlin",
+    "nameEn": "United Nations High Commissioner for Refugees (UNHCR)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "174": {
+    "code": "174",
+    "nameDe": "Gemeinsame Organisation für Rüstungskooperation (OCCAR), Bonn",
+    "nameEn": "Organisation for Joint Armament Co-operation (OCCAR)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "175": {
+    "code": "175",
+    "nameDe": "Verbindungsstelle der Internationalen Organisation für Migration (IOM) [bislang: Zwischenstaatliches Komitee für Europäische Auswanderung (ICEM)], Bonn",
+    "nameEn": "Liaison Office of the International Organization for Migration (IOM)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "176": {
+    "code": "176",
+    "nameDe": "Büro der Liga der Arabischen Staaten",
+    "nameEn": "Office of the League of Arab States",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "177": {
+    "code": "177",
+    "nameDe": "Deutsch-Französisches Jugendwerk (DFJW), Generalsekretariat, Berlin",
+    "nameEn": "Franco-German Youth Office (FGYO), General Secretariat",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "178": {
+    "code": "178",
+    "nameDe": "Europäisches Operations-Zentrum für Weltraumforschung (ESOC), Darmstadt",
+    "nameEn": "European Space Operations Centre (ESOC)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "179": {
+    "code": "179",
+    "nameDe": "NATO EF 2000 and Tornado Development Production and Logistics Management Agency (NETMA) [bislang: NATO-Organisation für Produktion und Logistik (NAMMA), München], Unterhaching",
+    "nameEn": "NATO EF 2000 and Tornado Development, Production and Logistics Management Agency (NETMA)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "180": {
+    "code": "180",
+    "nameDe": "Europäische Südsternwarte (ESO), Garching bei München",
+    "nameEn": "European Southern Observatory (ESO)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "181": {
+    "code": "181",
+    "nameDe": "Europäisches Laboratorium für Molekularbiologie (ELMB), Heidelberg",
+    "nameEn": "European Molecular Biology Laboratory (EMBL)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "182": {
+    "code": "182",
+    "nameDe": "Europäische Kommission - Vertretung in Deutschland",
+    "nameEn": "European Commission - Representation in Germany",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "183": {
+    "code": "183",
+    "nameDe": "Europäisches Patentamt (EPA), München",
+    "nameEn": "European Patent Office (EPO)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "184": {
+    "code": "184",
+    "nameDe": "Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD), Zentrum Bonn",
+    "nameEn": "Organisation for Economic Co-operation and Development (OECD)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "185": {
+    "code": "185",
+    "nameDe": "Welternährungsprogramm der Vereinten Nationen - Büro Berlin",
+    "nameEn": "United Nations World Food Programme (WFP) - Berlin Office",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "186": {
+    "code": "186",
+    "nameDe": "Europäische Organisation für die Nutzung von meteorologischen Satelliten (EUMETSAT), Darmstadt-Eberstadt",
+    "nameEn": "European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "187": {
+    "code": "187",
+    "nameDe": "Europäisches Astronautenzentrum (EAC), Köln",
+    "nameEn": "European Astronaut Centre (EAC)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "188": {
+    "code": "188",
+    "nameDe": "UNESCO-Institut für Pädagogik, Hamburg",
+    "nameEn": "UNESCO Institute for Lifelong Learning (UIL)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "189": {
+    "code": "189",
+    "nameDe": "Deutsch-Polnisches Jugendwerk (DPJW), Potsdam",
+    "nameEn": "German-Polish Youth Office (GPYO)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "190": {
+    "code": "190",
+    "nameDe": "Weltbank (IFC), Frankfurt",
+    "nameEn": "International Finance Corporation (IFC) - World Bank Group",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "191": {
+    "code": "191",
+    "nameDe": "Europäisches Zentrum für Umwelt und Gesundheit - Büro Bonn - WHO-Regionalbüro für Europa, Bonn",
+    "nameEn": "European Centre for Environment and Health (ECEH) - WHO Regional Office for Europe",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "192": {
+    "code": "192",
+    "nameDe": "United Nations Environment Programme - Sekretariat zur Erhaltung der wandernden wildlebenden Tierarten (CMS), Bonn",
+    "nameEn": "Convention on the Conservation of Migratory Species of Wild Animals (CMS)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "193": {
+    "code": "193",
+    "nameDe": "Sekretariat der Klimarahmenkonvention (UNFCCC), Bonn",
+    "nameEn": "United Nations Framework Convention on Climate Change (UNFCCC) Secretariat",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "194": {
+    "code": "194",
+    "nameDe": "Freiwilligenprogramm der Vereinten Nationen (UNV), Bonn",
+    "nameEn": "United Nations Volunteers (UNV) programme",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "195": {
+    "code": "195",
+    "nameDe": "Internationaler Seegerichtshof (ISGH), Hamburg",
+    "nameEn": "International Tribunal for the Law of the Sea (ITLOS)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "196": {
+    "code": "196",
+    "nameDe": "Informationszentrum der Vereinten Nationen (UNIC), Bonn",
+    "nameEn": "United Nations Information Centre (UNIC)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "197": {
+    "code": "197",
+    "nameDe": "UN-Sekretariat der Wüstenkonvention (UNCCD), Bonn",
+    "nameEn": "United Nations Convention to Combat Desertification (UNCCD) Secretariat",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "198": {
+    "code": "198",
+    "nameDe": "UNESCO-Internationales Zentrum für Berufsbildung (UNESCO-Centre), Bonn",
+    "nameEn": "UNESCO-UNEVOC International Centre for Technical and Vocational Education and Training",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "199": {
+    "code": "199",
+    "nameDe": "Universität der Vereinten Nationen: - UNU-ViE (Vizerektorat in Europa) - UNU-EHS (Institut für Umwelt und menschliche Sicherheit) - UNU-ISP-SCYCLE (Institut für Nachhaltigkeit und Frieden, Operating Unit SCYCLE) - UNU-IHDP (Internationales Programm zur sozialen Dimension der globalen Umweltveränderung) - UNU-FLORES (Institut für integriertes Materialfluss- und Ressourcenmanagement)",
+    "nameEn": "United Nations University: Vice-Rectorate in Europe / Institute for Environment and Human Security / Sustainable Cycles Programme",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "300": {
+    "code": "300",
+    "nameDe": "Plattform der Vereinten Nationen für raumfahrtgestützte Informationen für Katastrophenmanagement und Notfallmaßnahmen (UNOOSA/UN-SPIDER)",
+    "nameEn": "United Nations Office for Outer Space Affairs / UN Platform for Space-based Information for Disaster Management and Emergency Response",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "301": {
+    "code": "301",
+    "nameDe": "Sekretariat für die Studie „Die Ökonomie der Ökosysteme und der biologischen Vielfalt (UNEP/TEEB)",
+    "nameEn": "The Economics of Ecosystems and Biodiversity (TEEB) Secretariat",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "302": {
+    "code": "302",
+    "nameDe": "Internationale Organisation für erneuerbare Energien (IRENA): IRENA – Innovations- und Technologiezentrum (IITC)",
+    "nameEn": "International Renewable Energy Agency (IRENA): Innovation and Technology Centre (IITC)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "303": {
+    "code": "303",
+    "nameDe": "Global Crop Diversity Trust",
+    "nameEn": "Global Crop Diversity Trust (Crop Trust)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "304": {
+    "code": "304",
+    "nameDe": "UN/SDG Action Campaign- Zentrum für globale Aktionskampagne der Vereinten Nationen für die Ziele für nachhaltige Entwicklung",
+    "nameEn": "United Nations SDG Action Campaign",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "305": {
+    "code": "305",
+    "nameDe": "oneHR- Globales Zentrum für Personaldienste der Vereinten Nationen des UNDP",
+    "nameEn": "oneHR - UNDP Global Shared Service Centre",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "306": {
+    "code": "306",
+    "nameDe": "UNICEF-Büro in Berlin",
+    "nameEn": "UNICEF Office in Berlin",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "307": {
+    "code": "307",
+    "nameDe": "Weltbank-Büro Berlin",
+    "nameEn": "World Bank Group Office Berlin",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "308": {
+    "code": "308",
+    "nameDe": "Forschungsinstitut der Vereinten Nationen für Soziale Entwicklung (UNRISD)",
+    "nameEn": "United Nations Research Institute for Social Development (UNRISD)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "309": {
+    "code": "309",
+    "nameDe": "Initiative für Transparenz im Klimaschutz (UNOPS-ICAT) - Partnerschaft zur Umsetzung der Nationalen Klimabeiträge (UNOPS-NDC)",
+    "nameEn": "Initiative for Climate Action Transparency (ICAT) - NDC Partnership (UNOPS)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "310": {
+    "code": "310",
+    "nameDe": "UN-Habitat/Sekretariat der Vereinten Nationen für Wasserversorgung (UN-Habitat/GWOPA)",
+    "nameEn": "UN-Habitat / Global Water Operators' Partnerships Alliance (GWOPA)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "311": {
+    "code": "311",
+    "nameDe": "Wissenszentrum für Nachhaltige Entwicklung der Fortbildungsakademie des Systems der Vereinten Nationen (UNSSC Bonn)",
+    "nameEn": "United Nations System Staff College (UNSSC) Knowledge Centre for Sustainable Development",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "312": {
+    "code": "312",
+    "nameDe": "WHO – Büro Berlin, Drehscheibe für Pandemie- und Epidemieaufklärung",
+    "nameEn": "World Health Organization (WHO) - Berlin Office / Hub for Pandemic and Epidemic Intelligence",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "313": {
+    "code": "313",
+    "nameDe": "UNITAR – VN Institut für Training und Forschung",
+    "nameEn": "United Nations Institute for Training and Research (UNITAR)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "314": {
+    "code": "314",
+    "nameDe": "UNDP (United Nations Development Programme), Entwicklungsprogramm der Vereinten Nationen",
+    "nameEn": "United Nations Development Programme (UNDP)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "315": {
+    "code": "315",
+    "nameDe": "UNAIDS, Gemeinsames Programm der Vereinten Nationen für HIV/Aids",
+    "nameEn": "Joint United Nations Programme on HIV/AIDS (UNAIDS)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "316": {
+    "code": "316",
+    "nameDe": "UN DESA-GGCE, UN-Hauptabteilung Wirtschaftliche und Soziale Angelegenheit",
+    "nameEn": "UN Department of Economic and Social Affairs - Global Geodetic Capacity Centre",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "317": {
+    "code": "317",
+    "nameDe": "BIZ, Bank für Internationalen Zahlungsausgleich",
+    "nameEn": "Bank for International Settlements (BIS)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "318": {
+    "code": "318",
+    "nameDe": "EZMW, Europäisches Zentrum für mittelfristige Wettervorhersage",
+    "nameEn": "European Centre for Medium-Range Weather Forecasts (ECMWF)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "319": {
+    "code": "319",
+    "nameDe": "Internationale EU-LAK-Stiftung",
+    "nameEn": "EU-LAC International Foundation",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "320": {
+    "code": "320",
+    "nameDe": "UNFPA, United Nations Population Fund",
+    "nameEn": "United Nations Population Fund (UNFPA)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "321": {
+    "code": "321",
+    "nameDe": "AMLA, Anti-Money Laundering Authority",
+    "nameEn": "Anti-Money Laundering Authority (AMLA)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "322": {
+    "code": "322",
+    "nameDe": "UN-Women, United Nations Entity for Gender Equality and the Empowerment of Women",
+    "nameEn": "United Nations Entity for Gender Equality and the Empowerment of Women (UN Women)",
+    "flag": "🏢",
+    "type": "organization"
+  },
+  "323": {
+    "code": "323",
+    "nameDe": "IHRA, International Holocaust Remembrance Alliance",
+    "nameEn": "International Holocaust Remembrance Alliance (IHRA)",
+    "flag": "🏢",
+    "type": "organization"
+  }
 }

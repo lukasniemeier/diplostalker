@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { History, Trash2 } from 'lucide-react';
 import { HistoryItem, Language } from '../types';
@@ -10,6 +10,42 @@ interface HistoryTabProps {
   history: HistoryItem[];
   onClear: () => void;
 }
+
+const NameMarquee: React.FC<{ name: string }> = ({ name }) => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const textRef = useRef<HTMLHeadingElement>(null);
+  const [scrollDist, setScrollDist] = useState(0);
+
+  useEffect(() => {
+    if (containerRef.current && textRef.current) {
+      // Calculate if the text is wider than its container
+      const overflow = textRef.current.scrollWidth - containerRef.current.offsetWidth;
+      setScrollDist(overflow > 0 ? overflow : 0);
+    }
+  }, [name]);
+
+  return (
+    <div ref={containerRef} className="overflow-hidden flex-1 relative">
+      <motion.h3
+        ref={textRef}
+        className="font-bold whitespace-nowrap text-lg dark:text-white inline-block"
+        animate={scrollDist > 0 ? { x: [0, -(scrollDist + 24), 0] } : { x: 0 }}
+        transition={{
+          duration: scrollDist > 0 ? (scrollDist + 24) * 0.06 : 0,
+          repeat: Infinity,
+          repeatDelay: 3,
+          ease: "linear",
+          delay: 1
+        }}
+      >
+        {name}
+      </motion.h3>
+      {scrollDist > 0 && (
+        <div className="absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-white dark:from-neutral-900 to-transparent pointer-events-none" />
+      )}
+    </div>
+  );
+};
 
 export const HistoryTab: React.FC<HistoryTabProps> = ({ t, lang, history, onClear }) => {
   const formatTimeAgo = (timestamp: number) => {
@@ -62,14 +98,12 @@ export const HistoryTab: React.FC<HistoryTabProps> = ({ t, lang, history, onClea
                 {item.code}
               </div>
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-0.5">
-                  <span className="text-xl">{item.result.flag}</span>
-                  <h3 className="font-bold truncate text-lg dark:text-white">
-                    {lang === 'de' ? item.result.nameDe : item.result.nameEn}
-                  </h3>
+                <div className="flex items-center gap-2 mb-0.5 overflow-hidden">
+                  <span className="text-xl shrink-0">{item.result.flag}</span>
+                  <NameMarquee name={lang === 'de' ? item.result.nameDe : item.result.nameEn} />
                 </div>
                 <p className="text-xs font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider">
-                  {item.result.type === 'country' ? t.country : t.organization}
+                  {item.result.type === 'mission' ? t.mission : t.organization}
                 </p>
               </div>
               <span className="text-[10px] font-bold text-neutral-300 dark:text-neutral-700 whitespace-nowrap uppercase">

@@ -3,7 +3,7 @@ export interface DiplomaticCode {
   nameDe: string;
   nameEn: string;
   flag: string;
-  type: 'country' | 'organization';
+  type: 'mission' | 'organization';
 }
 
 export type Tab = 'search' | 'history';

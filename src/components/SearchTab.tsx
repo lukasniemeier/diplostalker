@@ -198,7 +198,7 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
                     {lang === 'de' ? displayResult.nameDe : displayResult.nameEn}
                   </h2>
                   <p className="text-sm font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-[0.2em]">
-                    {displayResult.type === 'country' ? t.country : t.organization}
+                    {displayResult.type === 'mission' ? t.mission : t.organization}
                   </p>
                 </div>
               </div>
