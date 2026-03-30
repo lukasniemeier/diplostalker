@@ -1,8 +1,9 @@
 # DiploStalker
 
-[![deploy](https://github.com/lukasniemeier/diplostalker/actions/workflows/deploy.yaml/badge.svg)](https://lukasniemeier.github.io/diplostalker/)
+[![Deployment](https://github.com/lukasniemeier/diplostalker/actions/workflows/deploy.yaml/badge.svg)](https://lukasniemeier.github.io/diplostalker/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An offline-capable web application to identify German diplomatic license plate codes. Built with React, Tailwind CSS, and Framer Motion.
+An offline-capable web application to identify German diplomatic license plate codes. Built by Gemini.
 
 ## Local Development
 
