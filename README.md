@@ -3,7 +3,8 @@
 [![Deployment](https://github.com/lukasniemeier/diplostalker/actions/workflows/deploy.yaml/badge.svg)](https://lukasniemeier.github.io/diplostalker/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An offline-capable web application to identify German diplomatic license plate codes. Built by Gemini.
+An offline-capable web application to identify German diplomatic license plate codes ("[Diplomatenkennzeichen](https://de.wikipedia.org/wiki/Diplomatenkennzeichen_(Deutschland))").
+Built by Gemini.
 
 ## Local Development
 
