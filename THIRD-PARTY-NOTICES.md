@@ -48,7 +48,6 @@
 - [convert-source-map@2.0.0](https://github.com/thlorenz/convert-source-map) - MIT
 - [debug@4.4.3](https://github.com/debug-js/debug) - MIT
 - [detect-libc@2.1.2](https://github.com/lovell/detect-libc) - Apache-2.0
-- [diplomatenstalker@0.0.0](undefined) - UNLICENSED
 - [electron-to-chromium@1.5.328](https://github.com/Kilian/electron-to-chromium) - ISC
 - [enhanced-resolve@5.20.1](https://github.com/webpack/enhanced-resolve) - MIT
 - [esbuild@0.25.12](https://github.com/evanw/esbuild) - MIT

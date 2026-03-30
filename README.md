@@ -1,4 +1,4 @@
-# Diplomatenstalker
+# DiploStalker
 
 An offline-capable web application to identify German diplomatic license plate codes. Built with React, Tailwind CSS, and Framer Motion.
 

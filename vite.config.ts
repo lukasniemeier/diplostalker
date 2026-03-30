@@ -13,8 +13,8 @@ export default defineConfig({
       registerType: 'prompt',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'Diplomatenstalker',
-        short_name: 'Diplostalker',
+        name: 'DiploStalker',
+        short_name: 'DiploStalker',
         description: 'Stalk your diplomats',
         theme_color: '#fafafa',
         background_color: "#ffffff",
