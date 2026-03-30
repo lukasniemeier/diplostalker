@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'PlateFont';
+  src: url('/fonts/GL-Nummernschild-Mtl.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-plate: "PlateFont", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-100 text-neutral-900 transition-colors duration-300;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .dark body {
+    @apply bg-neutral-950 text-neutral-100;
+  }
+}
+
+/* Hide number input arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
