@@ -39,7 +39,7 @@ export default function App() {
               t={t} 
               lang={lang} 
               history={history} 
-              onClear={() => clearHistory(t.clearHistory)} 
+              onClear={clearHistory} 
             />
           )}
         </AnimatePresence>

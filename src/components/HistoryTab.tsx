@@ -1,8 +1,10 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { motion } from 'motion/react';
-import { History, Trash2 } from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
+import { History, Trash2, Info } from 'lucide-react';
 import { HistoryItem, Language } from '../types';
 import { TranslationType } from '../constants';
+import { AboutModal } from './AboutModal';
+import { ConfirmModal } from './ConfirmModal';
 
 interface HistoryTabProps {
   t: TranslationType;
@@ -48,6 +50,9 @@ const NameMarquee: React.FC<{ name: string }> = ({ name }) => {
 };
 
 export const HistoryTab: React.FC<HistoryTabProps> = ({ t, lang, history, onClear }) => {
+  const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [isConfirmOpen, setIsConfirmOpen] = useState(false);
+
   const formatTimeAgo = (timestamp: number) => {
     const diff = Date.now() - timestamp;
     const minutes = Math.floor(diff / 60000);
@@ -72,14 +77,22 @@ export const HistoryTab: React.FC<HistoryTabProps> = ({ t, lang, history, onClea
         <span className="text-xs font-bold uppercase tracking-widest text-neutral-400 dark:text-neutral-600">
           {history.length} {t.history}
         </span>
-        {history.length > 0 && (
+        <div className="flex items-center gap-1">
           <button 
-            onClick={onClear}
-            className="text-neutral-300 dark:text-neutral-700 hover:text-red-500 transition-colors p-2"
+            onClick={() => setIsAboutOpen(true)}
+            className="text-neutral-300 dark:text-neutral-700 hover:text-neutral-900 dark:hover:text-white transition-colors p-2"
           >
-            <Trash2 className="w-5 h-5" />
+            <Info className="w-5 h-5" />
           </button>
-        )}
+          {history.length > 0 && (
+            <button 
+              onClick={() => setIsConfirmOpen(true)}
+              className="text-neutral-300 dark:text-neutral-700 hover:text-red-500 transition-colors p-2"
+            >
+              <Trash2 className="w-5 h-5" />
+            </button>
+          )}
+        </div>
       </div>
 
       {history.length === 0 ? (
@@ -113,6 +126,25 @@ export const HistoryTab: React.FC<HistoryTabProps> = ({ t, lang, history, onClea
           ))}
         </div>
       )}
+
+      <AnimatePresence>
+        {isAboutOpen && (
+          <AboutModal 
+            t={t} 
+            onClose={() => setIsAboutOpen(false)} 
+          />
+        )}
+        {isConfirmOpen && (
+          <ConfirmModal 
+            t={t} 
+            onConfirm={() => {
+              onClear();
+              setIsConfirmOpen(false);
+            }}
+            onCancel={() => setIsConfirmOpen(false)}
+          />
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 };

@@ -48,4 +48,7 @@ export default defineConfig({
   server: {
     hmr: process.env.DISABLE_HMR !== 'true',
   },
+  define: {
+    __BUILD_TIME__: JSON.stringify(new Date().toISOString()),
+  },
 });

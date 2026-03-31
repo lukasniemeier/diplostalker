@@ -23,10 +23,8 @@ export function useHistory() {
     });
   }, []);
 
-  const clearHistory = useCallback((confirmText: string) => {
-    if (window.confirm(confirmText + '?')) {
-      setHistory([]);
-    }
+  const clearHistory = useCallback(() => {
+    setHistory([]);
   }, []);
 
   return { history, addToHistory, clearHistory };

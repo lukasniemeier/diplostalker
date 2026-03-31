@@ -9,7 +9,8 @@ export const translations = {
     mission: 'Mission',
     organization: 'Organisation',
     clearHistory: 'Verlauf löschen',
-    emptyHistory: 'Noch keine Suchanfragen',
+    cancel: 'Abbrechen',
+    emptyHistory: 'Noch keine Ergebnisse.',
     justNow: 'Gerade eben',
     minutesAgo: ' Minuten her',
     hoursAgo: ' Stunden her',
@@ -17,6 +18,7 @@ export const translations = {
     pwaReady: 'App ist bereit für den Offline-Betrieb',
     pwaUpdate: 'Neue Version verfügbar!',
     pwaReload: 'Aktualisieren',
+    builtOn: 'Erstellt am',
   },
   en: {
     search: 'Search',
@@ -26,6 +28,7 @@ export const translations = {
     mission: 'Mission',
     organization: 'Organization',
     clearHistory: 'Clear history',
+    cancel: 'Cancel',
     emptyHistory: 'Here be dragons.',
     justNow: 'Just now',
     minutesAgo: ' m ago',
@@ -34,6 +37,7 @@ export const translations = {
     pwaReady: 'App ready to work offline',
     pwaUpdate: 'New version available!',
     pwaReload: 'Update',
+    builtOn: 'Built on',
   }
 } as const;
 
