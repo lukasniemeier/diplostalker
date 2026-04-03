@@ -11,14 +11,13 @@ interface SearchTabProps {
   t: TranslationType;
   lang: Language;
   isDark: boolean;
-  onResultFound: (code: string, result: DiplomaticCode) => void;
-  isNewResult: boolean;
-  onReset: () => void;
+  onResultFound: (code: string, result: DiplomaticCode) => boolean;
 }
 
-export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultFound, isNewResult, onReset }) => {
+export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultFound }) => {
   const [searchCode, setSearchCode] = useState('');
   const [displayResult, setDisplayResult] = useState<DiplomaticCode | null>(null);
+  const [isFreshResult, setIsFreshResult] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
   const [isRejected, setIsRejected] = useState(false);
 
@@ -31,13 +30,13 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
       if (window.innerWidth < 768) {
         (document.activeElement as HTMLElement)?.blur();
       }
-      onResultFound(code, found);
+      const hello = onResultFound(code, found);
+      console.log(hello);
+      setIsFreshResult(hello);
     }
-  }, [onResultFound]);
+  }, [onResultFound, setIsFreshResult]);
 
   useEffect(() => {
-    onReset();
-
     if (searchCode.length < 2) {
       setDisplayResult(null);
       setIsSearching(false);
@@ -195,7 +194,7 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
             {displayResult ? (
               <div className="relative bg-white dark:bg-neutral-900 p-10 rounded-3xl shadow-sm border border-neutral-100 dark:border-neutral-800 flex flex-col items-center text-center space-y-6">
                 <AnimatePresence>
-                  {isNewResult && (
+                  {isFreshResult && (
                     <motion.div
                       initial={{ opacity: 0, scale: 0.8, y: 10 }}
                       animate={{ opacity: 1, scale: 1, y: 0 }}

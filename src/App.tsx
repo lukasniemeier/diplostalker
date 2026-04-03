@@ -20,18 +20,12 @@ export default function App() {
 
   const { isDark } = useTheme();
   const { collection, addToCollection, clearCollection } = useCollection();
-  const [isCurrentResultNew, setIsCurrentResultNew] = useState(false);
 
   const t = translations[lang];
 
   const handleResultFound = useCallback((code: string, result: DiplomaticCode) => {
-    const isNew = addToCollection(code, result);
-    setIsCurrentResultNew(isNew);
+    return addToCollection(code, result);
   }, [addToCollection]);
-
-  const handleSearchReset = useCallback(() => {
-    setIsCurrentResultNew(false);
-  }, []);
 
   return (
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans flex flex-col max-w-md mx-auto shadow-xl border-x border-neutral-200 dark:border-neutral-800 transition-colors duration-300">
@@ -43,9 +37,7 @@ export default function App() {
               t={t} 
               lang={lang} 
               isDark={isDark} 
-              onResultFound={handleResultFound} 
-              isNewResult={isCurrentResultNew}
-              onReset={handleSearchReset}
+              onResultFound={handleResultFound}
             />
           ) : (
             <CollectionTab 
