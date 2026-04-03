@@ -1,14 +1,15 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { Search, History } from 'lucide-react';
 import { AnimatePresence } from 'motion/react';
 
 import { Tab, Language } from './types';
 import { translations } from './constants';
 import { useTheme } from './hooks/useTheme';
-import { useHistory } from './hooks/useHistory';
+import { useCollection } from './hooks/useCollection';
 import { SearchTab } from './components/SearchTab';
-import { HistoryTab } from './components/HistoryTab';
+import { CollectionTab } from './components/CollectionTab';
 import { ReloadPrompt } from './components/ReloadPrompt';
+import { DiplomaticCode } from './types';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<Tab>('search');
@@ -18,28 +19,40 @@ export default function App() {
   });
 
   const { isDark } = useTheme();
-  const { history, addToHistory, clearHistory } = useHistory();
+  const { collection, addToCollection, clearCollection } = useCollection();
+  const [isCurrentResultNew, setIsCurrentResultNew] = useState(false);
 
   const t = translations[lang];
+
+  const handleResultFound = useCallback((code: string, result: DiplomaticCode) => {
+    const isNew = addToCollection(code, result);
+    setIsCurrentResultNew(isNew);
+  }, [addToCollection]);
+
+  const handleSearchReset = useCallback(() => {
+    setIsCurrentResultNew(false);
+  }, []);
 
   return (
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans flex flex-col max-w-md mx-auto shadow-xl border-x border-neutral-200 dark:border-neutral-800 transition-colors duration-300">
       {/* Main Content */}
-      <main className="flex-1 overflow-y-auto p-6 pt-4 pb-24">
+      <main className="flex-1 flex flex-col min-h-0 overflow-hidden">
         <AnimatePresence mode="wait">
           {activeTab === 'search' ? (
             <SearchTab 
               t={t} 
               lang={lang} 
               isDark={isDark} 
-              onResultFound={addToHistory} 
+              onResultFound={handleResultFound} 
+              isNewResult={isCurrentResultNew}
+              onReset={handleSearchReset}
             />
           ) : (
-            <HistoryTab 
+            <CollectionTab 
               t={t} 
               lang={lang} 
-              history={history} 
-              onClear={clearHistory} 
+              collection={collection} 
+              onClear={clearCollection} 
             />
           )}
         </AnimatePresence>
@@ -60,7 +73,7 @@ export default function App() {
           className={`flex flex-col items-center gap-1 transition-all ${activeTab === 'history' ? 'text-neutral-900 dark:text-white' : 'text-neutral-300 dark:text-neutral-700'}`}
         >
           <History className={`w-6 h-6 ${activeTab === 'history' ? 'fill-neutral-900/10 dark:fill-white/10' : ''}`} />
-          <span className="text-[10px] font-bold uppercase tracking-widest">{t.history}</span>
+          <span className="text-[10px] font-bold uppercase tracking-widest">{t.collection}</span>
         </button>
       </nav>
     </div>

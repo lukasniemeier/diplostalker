@@ -12,9 +12,11 @@ interface SearchTabProps {
   lang: Language;
   isDark: boolean;
   onResultFound: (code: string, result: DiplomaticCode) => void;
+  isNewResult: boolean;
+  onReset: () => void;
 }
 
-export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultFound }) => {
+export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultFound, isNewResult, onReset }) => {
   const [searchCode, setSearchCode] = useState('');
   const [displayResult, setDisplayResult] = useState<DiplomaticCode | null>(null);
   const [isSearching, setIsSearching] = useState(false);
@@ -34,6 +36,8 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
   }, [onResultFound]);
 
   useEffect(() => {
+    onReset();
+
     if (searchCode.length < 2) {
       setDisplayResult(null);
       setIsSearching(false);
@@ -49,7 +53,7 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
     setIsSearching(true);
     const timer = setTimeout(() => {
       performSearch(searchCode);
-    }, 800);
+    }, 600);
 
     return () => clearTimeout(timer);
   }, [searchCode, performSearch]);
@@ -60,10 +64,10 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
-      className="space-y-12"
+      className="space-y-12 overflow-y-auto h-full p-6 pt-4 pb-32"
     >
       <div className="text-center space-y-3 pt-4">
-        <p className="text-neutral-500 dark:text-neutral-400 text-sm max-w-[280px] mx-auto leading-relaxed">
+        <p className="text-neutral-500 dark:text-neutral-400 text-sm max-w-70 mx-auto leading-relaxed">
           {t.hint}
         </p>
       </div>
@@ -172,7 +176,7 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
                   className="h-full bg-neutral-900 dark:bg-white"
                   initial={{ width: "0%" }}
                   animate={{ width: "100%" }}
-                  transition={{ duration: 0.8, ease: "linear" }}
+                  transition={{ duration: 0.6, ease: "linear" }}
                 />
               </motion.div>
             )}
@@ -189,7 +193,20 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
             className="w-full"
           >
             {displayResult ? (
-              <div className="bg-white dark:bg-neutral-900 p-10 rounded-3xl shadow-sm border border-neutral-100 dark:border-neutral-800 flex flex-col items-center text-center space-y-6">
+              <div className="relative bg-white dark:bg-neutral-900 p-10 rounded-3xl shadow-sm border border-neutral-100 dark:border-neutral-800 flex flex-col items-center text-center space-y-6">
+                <AnimatePresence>
+                  {isNewResult && (
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.8, y: 10 }}
+                      animate={{ opacity: 1, scale: 1, y: 0 }}
+                      exit={{ opacity: 0, scale: 0.8 }}
+                      className="absolute -top-3 right-8 bg-amber-400 text-neutral-900 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1 rounded-full shadow-lg z-10"
+                    >
+                      New
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+
                 <span className="text-8xl" role="img" aria-label="Flag">
                   {displayResult.flag}
                 </span>

@@ -9,7 +9,7 @@ export interface DiplomaticCode {
 export type Tab = 'search' | 'history';
 export type Language = 'de' | 'en';
 
-export interface HistoryItem {
+export interface CollectionItem {
   code: string;
   result: DiplomaticCode;
   timestamp: number;

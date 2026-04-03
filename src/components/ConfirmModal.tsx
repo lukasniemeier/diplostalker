@@ -10,7 +10,7 @@ interface ConfirmModalProps {
 
 export const ConfirmModal: React.FC<ConfirmModalProps> = ({ t, onConfirm, onCancel }) => {
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-6">
+    <div className="fixed inset-0 z-100 flex items-center justify-center p-6">
       {/* Backdrop */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -32,7 +32,7 @@ export const ConfirmModal: React.FC<ConfirmModalProps> = ({ t, onConfirm, onCanc
             onClick={onConfirm}
             className="w-full py-4 bg-red-500 hover:bg-red-600 text-white rounded-2xl font-bold transition-all shadow-lg shadow-red-500/20 active:scale-[0.98]"
           >
-            {t.clearHistory}
+            {t.clearCollection}
           </button>
           <button
             onClick={onCancel}
