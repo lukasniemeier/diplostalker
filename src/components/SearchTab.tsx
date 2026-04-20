@@ -7,6 +7,8 @@ import DIPLOMATIC_CODES_JSON from '../data.json';
 
 const DIPLOMATIC_CODES = DIPLOMATIC_CODES_JSON as Record<string, DiplomaticCode>;
 
+const SEARCH_DELAY_MS = 800;
+
 interface SearchTabProps {
   t: TranslationType;
   lang: Language;
@@ -52,7 +54,7 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
     setIsSearching(true);
     const timer = setTimeout(() => {
       performSearch(searchCode);
-    }, 600);
+    }, SEARCH_DELAY_MS);
 
     return () => clearTimeout(timer);
   }, [searchCode, performSearch]);
@@ -175,7 +177,7 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
                   className="h-full bg-neutral-900 dark:bg-white"
                   initial={{ width: "0%" }}
                   animate={{ width: "100%" }}
-                  transition={{ duration: 0.6, ease: "linear" }}
+                  transition={{ duration: SEARCH_DELAY_MS / 1000, ease: "linear" }}
                 />
               </motion.div>
             )}
