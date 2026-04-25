@@ -138,7 +138,7 @@ export const CollectionTab: React.FC<CollectionTabProps> = ({ t, lang, collectio
             <div className="space-y-3">
               {collection.map((item) => (
                 <div 
-                  key={item.timestamp}
+                  key={item.code}
                   className="bg-white dark:bg-neutral-900 p-5 rounded-2xl border border-neutral-100 dark:border-neutral-800 flex items-center gap-5 shadow-sm"
                 >
                   <div className="w-14 h-14 bg-neutral-50 dark:bg-neutral-800 rounded-2xl flex items-center justify-center text-2xl font-plate font-black text-neutral-900 dark:text-white shrink-0">
@@ -153,8 +153,14 @@ export const CollectionTab: React.FC<CollectionTabProps> = ({ t, lang, collectio
                       {item.result.type === 'mission' ? t.mission : t.organization}
                     </p>
                   </div>
-                  <span className="text-[10px] font-bold text-neutral-300 dark:text-neutral-700 whitespace-nowrap uppercase">
-                    {formatTimeAgo(item.timestamp)}
+                  <span className="flex flex-col items-end text-[10px] font-bold text-neutral-300 dark:text-neutral-700 whitespace-nowrap uppercase">
+                    {item.firstSeen !== null && item.firstSeen !== item.lastSeen && (
+                      <span className="text-neutral-400 dark:text-neutral-600 text-[9px] mb-0.5">
+                        {t.firstSeen}: {formatTimeAgo(item.firstSeen)}
+                      </span>
+                    )}
+                    <span>{item.firstSeen === item.lastSeen ? t.seen : t.lastSeen}: {formatTimeAgo(item.lastSeen ?? item.timestamp)}</span>
+
                   </span>
                 </div>
               ))}

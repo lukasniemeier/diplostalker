@@ -19,6 +19,9 @@ export const translations = {
     pwaUpdate: 'Neue Version verfügbar!',
     pwaReload: 'Aktualisieren',
     builtOn: 'Erstellt am',
+    seen: 'Gesehen',
+    firstSeen: 'Zuerst',
+    lastSeen: 'Zuletzt',
   },
   en: {
     search: 'Search',
@@ -38,6 +41,9 @@ export const translations = {
     pwaUpdate: 'New version available!',
     pwaReload: 'Update',
     builtOn: 'Built on',
+    seen: 'Seen',
+    firstSeen: 'First seen',
+    lastSeen: 'Last seen',
   }
 } as const;
 

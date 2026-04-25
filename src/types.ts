@@ -12,5 +12,7 @@ export type Language = 'de' | 'en';
 export interface CollectionItem {
   code: string;
   result: DiplomaticCode;
-  timestamp: number;
+  firstSeen: number;
+  lastSeen: number;
+  timestamp: number | null;
 }

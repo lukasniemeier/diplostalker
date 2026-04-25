@@ -15,13 +15,17 @@ export function useCollection() {
   }, [collection]);
 
   const addToCollection = useCallback((code: string, result: DiplomaticCode) => {
-    const isNew = !collectionRef.current.some(item => item.code === code);
+    const existingItem = collectionRef.current.find(item => item.code === code);
+    const isNew = !existingItem;
     
     setCollection(prev => {
+      const now = Date.now();
       const newItem: CollectionItem = {
         code,
         result,
-        timestamp: Date.now()
+        firstSeen: existingItem ? existingItem.firstSeen : now,
+        lastSeen: now,
+        timestamp: null, // backwards compatibility
       };
       const filtered = prev.filter(item => item.code !== code);
       return [newItem, ...filtered];
