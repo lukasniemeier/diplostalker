@@ -23,9 +23,8 @@ export function useCollection() {
       const newItem: CollectionItem = {
         code,
         result,
-        firstSeen: existingItem ? existingItem.firstSeen : now,
-        lastSeen: now,
-        timestamp: null, // backwards compatibility
+        firstSeen: existingItem ? (existingItem.firstSeen ?? existingItem.timestamp ?? now) : now,
+        lastSeen: now
       };
       const filtered = prev.filter(item => item.code !== code);
       return [newItem, ...filtered];

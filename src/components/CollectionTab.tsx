@@ -154,12 +154,12 @@ export const CollectionTab: React.FC<CollectionTabProps> = ({ t, lang, collectio
                     </p>
                   </div>
                   <span className="flex flex-col items-end text-[10px] font-bold text-neutral-300 dark:text-neutral-700 whitespace-nowrap uppercase">
-                    {item.firstSeen !== null && item.firstSeen !== item.lastSeen && (
+                    {item.firstSeen && item.lastSeen && item.firstSeen !== item.lastSeen && (
                       <span className="text-neutral-400 dark:text-neutral-600 text-[9px] mb-0.5">
                         {t.firstSeen}: {formatTimeAgo(item.firstSeen)}
                       </span>
                     )}
-                    <span>{item.firstSeen === item.lastSeen ? t.seen : t.lastSeen}: {formatTimeAgo(item.lastSeen ?? item.timestamp)}</span>
+                    <span>{(!item.firstSeen || !item.lastSeen || item.firstSeen === item.lastSeen) ? t.seen : t.lastSeen}: {formatTimeAgo((item.lastSeen ?? item.timestamp) as number)}</span>
 
                   </span>
                 </div>
