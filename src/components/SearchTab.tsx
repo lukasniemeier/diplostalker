@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import { Moon, Sun } from 'lucide-react';
 import { DiplomaticCode, Language } from '../types';
 import { TranslationType } from '../constants';
 import { HUStickers } from './HUStickers';
@@ -13,10 +14,11 @@ interface SearchTabProps {
   t: TranslationType;
   lang: Language;
   isDark: boolean;
+  toggleTheme: () => void;
   onResultFound: (code: string, result: DiplomaticCode) => boolean;
 }
 
-export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultFound }) => {
+export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, toggleTheme, onResultFound }) => {
   const [searchCode, setSearchCode] = useState('');
   const [displayResult, setDisplayResult] = useState<DiplomaticCode | null>(null);
   const [isFreshResult, setIsFreshResult] = useState(false);
@@ -67,6 +69,16 @@ export const SearchTab: React.FC<SearchTabProps> = ({ t, lang, isDark, onResultF
       exit={{ opacity: 0, y: -10 }}
       className="space-y-12 overflow-y-auto h-full p-6 pt-4 pb-32"
     >
+      <div className="absolute top-4 right-6 z-20">
+        <button
+          onClick={toggleTheme}
+          className="p-2 text-neutral-300 dark:text-neutral-700 hover:text-neutral-900 dark:hover:text-white transition-colors"
+          aria-label="Toggle theme"
+        >
+          {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+        </button>
+      </div>
+
       <div className="text-center space-y-3 pt-4">
         <p className="text-neutral-500 dark:text-neutral-400 text-sm max-w-70 mx-auto leading-relaxed">
           {t.hint}

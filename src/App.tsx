@@ -18,7 +18,7 @@ export default function App() {
     return browserLang === 'de' ? 'de' : 'en';
   });
 
-  const { isDark } = useTheme();
+  const { isDark, toggleTheme } = useTheme();
   const { collection, addToCollection, clearCollection } = useCollection();
 
   const t = translations[lang];
@@ -37,12 +37,13 @@ export default function App() {
               t={t} 
               lang={lang} 
               isDark={isDark} 
+              toggleTheme={toggleTheme}
               onResultFound={handleResultFound}
             />
           ) : (
             <CollectionTab 
               t={t} 
-              lang={lang} 
+              lang={lang}
               collection={collection} 
               onClear={clearCollection} 
             />
