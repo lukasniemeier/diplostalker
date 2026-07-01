@@ -17,8 +17,8 @@
     "npm": ">=11.0.0"
   },
   "dependencies": {
-    "lucide-react": "^1.16.0",
-    "motion": "^12.40.0",
+    "lucide-react": "^1.21.0",
+    "motion": "^12.41.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
