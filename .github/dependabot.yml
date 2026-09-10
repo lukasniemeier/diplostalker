@@ -17,11 +17,11 @@ updates:
     groups:
       production-dependencies:
         dependency-type: "production"
-      update-types: 
-        - "minor"
-        - "major"
+        update-types: 
+          - "minor"
+          - "major"
       development-dependencies:
         dependency-type: "development"
-      update-types: 
-        - "minor"
-        - "major"
+        update-types: 
+          - "minor"
+          - "major"
